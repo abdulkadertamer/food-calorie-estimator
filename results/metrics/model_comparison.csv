@@ -1,0 +1,6 @@
+Model,MAE,RMSE,R2,CV Mean,CV Std
+Linear Regression,6.42,12.16,0.9947,0.9907,0.0022
+Gradient Boosting,6.53,12.75,0.9941,0.9911,0.0017
+Random Forest (Tuned),7.1,15.3,0.9915,0.9902,0.0015
+Random Forest,8.4,15.71,0.9911,0.9894,0.0016
+Decision Tree,13.79,22.2,0.9822,0.9784,0.0032

@@ -1,0 +1,17 @@
+{
+  "best_model": "Linear Regression",
+  "features": [
+    "protein",
+    "fat",
+    "carbohydrate",
+    "fiber",
+    "sugars",
+    "sodium",
+    "saturated_fatty_acids",
+    "monounsaturated_fatty_acids",
+    "polyunsaturated_fatty_acids"
+  ],
+  "r2_score": 0.9947,
+  "mae": 6.42,
+  "cv_mean": 0.9907
+}

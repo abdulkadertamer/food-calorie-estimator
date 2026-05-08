@@ -1,0 +1,14 @@
+# 🍕 Food Calorie Estimator — runtime dependencies
+#
+# Versions are pinned conservatively. Both CLIP (transformers + torch)
+# and the calorie regressor (scikit-learn + joblib) need to load on
+# Hugging Face Spaces' free CPU tier — these are known to work there.
+
+gradio>=5.0,<7.0
+transformers>=4.40,<6.0
+torch>=2.2,<3.0
+scikit-learn>=1.4,<2.0
+joblib>=1.3
+pandas>=2.0
+numpy>=1.26
+Pillow>=10.0

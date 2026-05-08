@@ -1,0 +1,38 @@
+# ── Python ────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# ── Virtual environments ──────────────────────
+venv/
+.venv/
+env/
+
+# ── OS / Editor ───────────────────────────────
+.DS_Store
+.vscode/
+.idea/
+*.swp
+
+# ── Jupyter ───────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Project-specific ──────────────────────────
+# raw data dumps stay local (8 MB+); processed CSV is committed
+data/raw/
+
+# don't commit huge cached CLIP weights — let HF Hub serve them
+.cache/
+huggingface/
+
+# secrets
+.env
+.env.local
+
+# NOTE: we DO commit the trained ML artifacts:
+#   models/best_model.pkl   (705 B)  — needed by the deployed app
+#   models/scaler.pkl       (1.1 KB)
+#   models/model_info.json
+# The CLIP text-embeddings cache is regenerated automatically:
+models/clip_text_embeddings.npy
