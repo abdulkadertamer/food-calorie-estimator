@@ -208,7 +208,7 @@ in well under the free-tier 16 GB / 2 vCPU limits.
 ## 👤 Author
 
 **Abdulkader Tamer** — AI Engineering Student, Mansoura National University
-Built for **NTI Creativa 2025** — Machine Learning track.
+Built for **NTI Training Project** — Machine Learning track.
 
 ## 📄 License
 
